@@ -7,4 +7,6 @@
             :comments "same as Clojure"}
   :eval-in-project true
   :dependencies [[org.clojure/clojure "1.4.0"]
-                 [octia               "0.0.1"]])
+                 [octia               "0.0.1"]
+                 [leinjacker          "0.4.1"]
+                 [cheshire            "5.0.1"]])

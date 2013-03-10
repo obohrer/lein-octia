@@ -1,6 +1,6 @@
 (ns leiningen.octia.doc
-  (:require [leinjacker.deps :as deps]
-            [octia.doc       :as doc])
+  (:refer-clojure :exclude [doc])
+  (:require [octia.doc :as doc])
   (:use [leinjacker.eval :only (eval-in-project)]))
 
 (defn load-namespaces
